@@ -1,0 +1,244 @@
+{
+  "locale": "en-US",
+  "company_card": {
+    "code": "SPCX",
+    "industry": "Aerospace and Defense",
+    "trade_market": "NASDAQ Stock Exchange",
+    "staff_number": 22000,
+    "eng_company_light": "Built on aerospace, boosted by AI, a pacesetter in dual hard tech fields",
+    "company_logo": "",
+    "eng_office_address": "1 Rocket Road\nStarbase\nTexas 78521",
+    "establish_date": "2002-03-14",
+    "org_name": "Space Exploration Technologies Corp.",
+    "eng_org_name": "Space Exploration Technologies Corp.",
+    "org_description": "Space Exploration Technologies was incorporated as a Delaware corporation on March 14, 2002 and re-incorporated as a Texas corporation on February 14, 2024. The company builds integrated hardware and software infrastructure across space, connectivity and artificial intelligence. SpaceX designs, manufactures, launches and operates advanced technology-based products and services, including rockets and spacecraft. SpaceX also operates a high-speed, low-latency global broadband data and communications network powered by Starlink satellites in low-Earth orbit.",
+    "annual_closing_date": "12-31",
+    "org_website": "www.spacex.com",
+    "sec_type": "Common stock",
+    "main_business": "--",
+    "listing_date": "2026-06-12",
+    "depository_ratio": ""
+  },
+  "business_analysis": {
+    "subject": {
+      "market": "185",
+      "code": "SPCX",
+      "sec_id": "S021462152",
+      "org_id": "T000190211"
+    },
+    "summary": {
+      "headline": "SpaceX is like a company that builds both the road to space and the services running on that road.",
+      "description": "Falcon and Starship are the transport tools: customers pay SpaceX to send satellites, cargo, or people into orbit. Starlink is the service built on top: SpaceX launches its own satellites, then sells internet access to households, companies, ships, aircraft, telecom partners, and governments. The business becomes more attractive if launch costs keep falling while Starlink users and network usage keep growing."
+    },
+    "introVideo": {
+      "hasVideo": true,
+      "videoURL": "assets/media/spacex-intro.mp4",
+      "pictureURL": "assets/media/spacex-video-cover.png"
+    },
+    "revenueMix": {
+      "label": "Revenue Mix",
+      "unit": "USD_BILLION",
+      "period": "2025",
+      "items": [
+        {
+          "id": "connectivity",
+          "name": "Connectivity",
+          "share": 61,
+          "revenue": 11.39,
+          "colorKey": "connectivity"
+        },
+        {
+          "id": "space",
+          "name": "Space",
+          "share": 22,
+          "revenue": 4.09,
+          "colorKey": "space"
+        },
+        {
+          "id": "ai",
+          "name": "AI",
+          "share": 17,
+          "revenue": 3.2,
+          "colorKey": "other"
+        }
+      ]
+    },
+    "business_segments": [
+      {
+        "name": "Connectivity",
+        "tagline": "Largest revenue line",
+        "headline": "Connectivity is SpaceX selling internet from space.",
+        "business_intro": "Starlink puts many small satellites in low Earth orbit, then sells internet access to people and organizations that need coverage where cables and cell towers are weak, expensive, or unavailable. Households may pay a monthly plan. Airlines and ships may pay for in-flight or at-sea connectivity. Governments may pay for secure or remote communications. The business gets stronger when SpaceX can add users without network quality falling, and when each new satellite or terminal costs less than before.",
+        "customer": "Consumers, enterprises, mobility operators, telecom partners, and governments.",
+        "revenue_mode": "Subscriptions, terminals, capacity contracts, and managed services.",
+        "focus_metrics": "Subscribers, ARPU, churn, capacity utilization, terminal cost, and regulation."
+      },
+      {
+        "name": "Space",
+        "tagline": "Launch and mission platform",
+        "headline": "Space is SpaceX working like a delivery company for orbit.",
+        "business_intro": "Customers pay SpaceX to launch satellites, deliver cargo, support crew missions, or run special government missions. The important difference is reuse: if a rocket booster can fly many times, each launch may become cheaper and faster to schedule. This also helps Starlink, because SpaceX does not need to buy launches from another company to expand its own satellite network.",
+        "customer": "Satellite operators, NASA, defense agencies, governments, and internal Starlink missions.",
+        "revenue_mode": "Launch fees, mission contracts, transport services, and government programs.",
+        "focus_metrics": "Launch cadence, success rate, backlog, pricing, reusability, and delays."
+      },
+      {
+        "name": "AI",
+        "tagline": "",
+        "headline": "AI is better understood as SpaceX's intelligent operations layer: helping rockets, satellite networks, and government missions run more autonomously.",
+        "business_intro": "Public information does not support describing SpaceX as a company that separately sells broad consumer AI products. In a company profile, AI is better treated as an enabling capability: it may support rocket and spacecraft autonomy, launch and landing data analysis, Starlink capacity planning and network monitoring, and Starshield-related secure communications, mission management, and satellite data processing for government users. If this capability becomes revenue, it is more likely to come from government or enterprise projects, such as mission software, data processing, secure communications support, automated operations tools, and customized systems, rather than a consumer AI app.",
+        "customer": "Government and defense users, satellite and communications partners, large enterprise customers, plus internal SpaceX launch and Starlink operations.",
+        "revenue_mode": "Government programs, mission-management software, satellite data processing, secure communications support, automated operations tools, and customized systems.",
+        "focus_metrics": "External revenue share, recurring revenue, contract duration, gross margin, whether it is only an internal tool, and disclosure quality."
+      }
+    ]
+  },
+  "related_concepts": [
+    {
+      "blockId": "C28A",
+      "indexCode": "861101",
+      "indexName": "Space Infrastructure",
+      "indexNameEn": "Space Infrastructure",
+      "indexMarket": 89,
+      "iconUrl": "https://lh-prod-mid-pub-newsf10.s3.amazonaws.com/block/icon/861101.png",
+      "percentChange": 2.34
+    },
+    {
+      "blockId": "C28B",
+      "indexCode": "861102",
+      "indexName": "Satellite Internet",
+      "indexNameEn": "Satellite Internet",
+      "indexMarket": 89,
+      "iconUrl": "https://lh-prod-mid-pub-newsf10.s3.amazonaws.com/block/icon/861102.png",
+      "percentChange": 3.12
+    },
+    {
+      "blockId": "C28C",
+      "indexCode": "861103",
+      "indexName": "Reusable Rockets",
+      "indexNameEn": "Reusable Rockets",
+      "indexMarket": 89,
+      "iconUrl": "https://lh-prod-mid-pub-newsf10.s3.amazonaws.com/block/icon/861103.png",
+      "percentChange": 1.86
+    },
+    {
+      "blockId": "C28D",
+      "indexCode": "861104",
+      "indexName": "Commercial Spaceflight",
+      "indexNameEn": "Commercial Spaceflight",
+      "indexMarket": 89,
+      "iconUrl": "https://lh-prod-mid-pub-newsf10.s3.amazonaws.com/block/icon/861104.png",
+      "percentChange": 2.05
+    },
+    {
+      "blockId": "C28E",
+      "indexCode": "861105",
+      "indexName": "Low Earth Orbit Satellites",
+      "indexNameEn": "Low Earth Orbit Satellites",
+      "indexMarket": 89,
+      "iconUrl": "https://lh-prod-mid-pub-newsf10.s3.amazonaws.com/block/icon/861105.png",
+      "percentChange": 2.72
+    },
+    {
+      "blockId": "C28F",
+      "indexCode": "861106",
+      "indexName": "Defense Space Systems",
+      "indexNameEn": "Defense Space Systems",
+      "indexMarket": 89,
+      "iconUrl": "https://lh-prod-mid-pub-newsf10.s3.amazonaws.com/block/icon/861106.png",
+      "percentChange": 1.94
+    },
+    {
+      "blockId": "C28G",
+      "indexCode": "861107",
+      "indexName": "Next-Gen Connectivity",
+      "indexNameEn": "Next-Gen Connectivity",
+      "indexMarket": 89,
+      "iconUrl": "https://lh-prod-mid-pub-newsf10.s3.amazonaws.com/block/icon/861107.png",
+      "percentChange": 2.41
+    }
+  ],
+  "executive_profile": {
+    "executives": [
+      {
+        "name": "Elon Musk",
+        "title": "Chairman of the Board and Chief Executive Officer and Chief Technical Officer and Director",
+        "gender": "male",
+        "age": 54,
+        "education": "Undergraduate",
+        "salary": "--",
+        "ownership": "49.03%",
+        "vote_power": "89.02%",
+        "profile_desc": "Elon Musk has served as Space Exploration Technologies Corp.'s Chief Executive Officer, Chief Technical Officer and Chairman of Space Exploration Technologies Corp.'s board since May 2002. Mr. Musk is also the Technoking of Tesla and has served as Chief Executive Officer of Tesla since October 2008. Mr. Musk was Chief Technology Officer and on the board of directors of X, beginning October 2022 and served as the Chief Executive Officer and on the board of directors of xAI, beginning March 2023, in each case through the March 2025 merger of X and xAI. Mr. Musk is also a founder and Chief Executive Officer of Neuralink Corp. and The Boring Company."
+      },
+      {
+        "name": "Gwynne Shotwell",
+        "title": "President, Chief Operating Officer and Director",
+        "gender": "female",
+        "age": 62,
+        "education": "Master",
+        "salary": "--",
+        "ownership": "0.098%",
+        "vote_power": "0.12%",
+        "profile_desc": "Gwynne Shotwell has served as Space Exploration Technologies Corp.'s President and Chief Operating Officer since 2008 and has been a member of Space Exploration Technologies Corp.'s board since March 2009. Previously, Ms. Shotwell served as Vice President, Business Development, from 2002 to 2008."
+      },
+      {
+        "name": "Bret Johnsen",
+        "title": "Chief Financial Officer",
+        "gender": "male",
+        "age": 48,
+        "education": "Master of Business Administration",
+        "salary": "--",
+        "ownership": "0.015%",
+        "vote_power": "0.02%",
+        "profile_desc": "Bret Johnsen joined SpaceX as Chief Financial Officer, responsible for overall corporate finance, capital planning, investor relations, financial reporting and capital market strategy."
+      }
+    ],
+    "board": [
+      {
+        "name": "Elon Musk",
+        "title": "Chairman of the Board and Chief Executive Officer and Chief Technical Officer and Director",
+        "gender": "male",
+        "age": 54,
+        "education": "Undergraduate",
+        "salary": "--",
+        "ownership": "49.03%",
+        "vote_power": "89.02%",
+        "profile_desc": "Elon Musk has served as Space Exploration Technologies Corp.'s Chief Executive Officer, Chief Technical Officer and Chairman of Space Exploration Technologies Corp.'s board since May 2002."
+      },
+      {
+        "name": "Gwynne Shotwell",
+        "title": "President, Chief Operating Officer and Director",
+        "gender": "female",
+        "age": 62,
+        "education": "Master",
+        "salary": "--",
+        "ownership": "0.098%",
+        "vote_power": "0.12%",
+        "profile_desc": "Gwynne Shotwell has served as Space Exploration Technologies Corp.'s President and Chief Operating Officer since 2008."
+      },
+      {
+        "name": "Roelof Botha",
+        "title": "Independent Director",
+        "gender": "male",
+        "age": 49,
+        "education": "Master of Business Administration",
+        "salary": "--",
+        "ownership": "0.042%",
+        "vote_power": "0.06%",
+        "profile_desc": "Roelof Botha is a venture capitalist and partner at Sequoia Capital, serving as SpaceX independent director."
+      },
+      {
+        "name": "Luke Nosek",
+        "title": "Director",
+        "gender": "male",
+        "age": 52,
+        "education": "Undergraduate",
+        "salary": "--",
+        "ownership": "0.031%",
+        "vote_power": "0.04%",
+        "profile_desc": "Luke Nosek is a serial tech entrepreneur and early investor of SpaceX, co-founder of PayPal."
+      }
+    ]
+  }
+}
