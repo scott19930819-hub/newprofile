@@ -247,7 +247,7 @@ function renderIntroVideo(video = {}) {
   return `
     <div class="thesis-video" data-has-video="true" data-video-src="${escapeHtml(video.src || video.videoURL || '')}" data-video-poster="${escapeHtml(poster)}" data-video-title="${escapeHtml(video.title || '')}">
       <div class="video-frame" aria-label="${escapeHtml(video.title || 'Company introduction video')}">
-        <div class="video-fallback ${poster ? 'has-poster' : ''}"${posterStyle}><div class="play-mark">▶</div></div>
+        <div class="video-fallback ${poster ? 'has-poster' : ''}"${posterStyle}><div class="play-mark">▶</div></div><button class="replay-btn" type="button" aria-label="Replay video">Replay</button>
       </div>
     </div>
   `;
@@ -423,7 +423,15 @@ function initializeVideos() {
     if (poster) video.poster = poster;
     video.controls = true;
     video.preload = 'metadata';
+    const replay = frame.querySelector('.replay-btn');
     frame.replaceChildren(video);
+    if (replay) {
+      frame.appendChild(replay);
+      replay.addEventListener('click', () => {
+        video.currentTime = 0;
+        video.play();
+      });
+    }
   });
 }
 
@@ -439,6 +447,7 @@ async function boot() {
 }
 
 boot();
+
 
 
 
