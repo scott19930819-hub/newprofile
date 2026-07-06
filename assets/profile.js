@@ -83,7 +83,7 @@ function normalizeProfileData(raw = {}) {
     : {
         facts: 'Company Facts', industry: 'Industry', established: 'Established Date', listing: 'Listing Date', exchange: 'Exchange',
         employees: 'Full-time Employees', fiscalYear: 'Fiscal Year Ends', website: 'Website', securityType: 'Security Type', address: 'Office address',
-        business: 'Business', introduction: 'Introduction', model: 'Business & Model', oneLine: 'One-line view', related: 'Related Section',
+        business: 'Business', introduction: 'Introduction', model: 'Business Overview', oneLine: 'One-line view', related: 'Related Section',
         executives: 'Executive profile', management: 'Executives', board: 'Board', customers: 'Customers', revenue: 'Revenue', watch: 'Watch'
       };
 
@@ -439,6 +439,7 @@ async function boot() {
 }
 
 boot();
+
 
 
 
