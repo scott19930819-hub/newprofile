@@ -247,7 +247,7 @@ function renderIntroVideo(video = {}) {
   return `
     <div class="thesis-video" data-has-video="true" data-video-src="${escapeHtml(video.src || video.videoURL || '')}" data-video-poster="${escapeHtml(poster)}" data-video-title="${escapeHtml(video.title || '')}">
       <div class="video-frame" aria-label="${escapeHtml(video.title || 'Company introduction video')}">
-        <div class="video-fallback ${poster ? 'has-poster' : ''}"${posterStyle}><div class="play-mark">▶</div></div><button class="replay-btn" type="button" aria-label="Replay video">Replay</button>
+        <button class="video-play-overlay ${poster ? 'has-poster' : ''}" type="button" aria-label="Play video"${posterStyle}><span class="play-mark">▶</span></button><button class="replay-btn" type="button" aria-label="Replay video">Replay</button>
       </div>
     </div>
   `;
@@ -423,8 +423,18 @@ function initializeVideos() {
     if (poster) video.poster = poster;
     video.controls = true;
     video.preload = 'metadata';
+    const playOverlay = frame.querySelector('.video-play-overlay');
     const replay = frame.querySelector('.replay-btn');
     frame.replaceChildren(video);
+    if (playOverlay) {
+      frame.appendChild(playOverlay);
+      playOverlay.addEventListener('click', () => {
+        video.play();
+      });
+      video.addEventListener('play', () => playOverlay.classList.add('is-hidden'));
+      video.addEventListener('pause', () => playOverlay.classList.toggle('is-hidden', video.currentTime > 0 && video.currentTime < video.duration));
+      video.addEventListener('ended', () => playOverlay.classList.remove('is-hidden'));
+    }
     if (replay) {
       frame.appendChild(replay);
       replay.addEventListener('click', () => {
@@ -447,6 +457,7 @@ async function boot() {
 }
 
 boot();
+
 
 
 
