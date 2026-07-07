@@ -33,8 +33,8 @@
     },
     "introVideo": {
       "hasVideo": true,
-      "videoURL": "assets/media/spacex-intro.mp4",
-      "pictureURL": "assets/media/spacex-video-cover.png"
+      "videoURL": "https://basic.10jqka.com.cn/ai_data/oss/preview/demo/understand_spaceX.mp4",
+      "pictureURL": "https://basic.10jqka.com.cn/ai_data/oss/preview/demo/spaceX.png"
     },
     "revenueMix": {
       "label": "????",
